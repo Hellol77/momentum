@@ -13,10 +13,6 @@ function onLoginSubmit(event) {
   localStorage.setItem(USERNAME_KEY, username);
   paintGreetings(username);
 }
-function handleLinkClick(event) {
-  
-  alert("click");
-}
 loginForm.addEventListener("submit", onLoginSubmit);
 
 function paintGreetings(username) {
