@@ -8,7 +8,7 @@
 !.vscode/launch.json
 !.vscode/extensions.json
 *.code-workspace
-
+.weather.js
 # Local History for Visual Studio Code
 .history/
 
